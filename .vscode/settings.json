@@ -1,0 +1,76 @@
+{
+  // LINTERS
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "on",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#852cdf",
+    "activityBar.foreground": "#852cdf",
+    "panel.border": "#852cdf",
+    "sideBar.border": "#852cdf",
+    "sideBarSectionHeader.foreground": "#852cdf",
+    "statusBar.border": "#852cdf",
+    "statusBar.foreground": "#852cdf",
+    "tab.activeForeground": "#852cdf",
+  },
+  "git.ignoreLimitWarning": true,
+  "eslint.lintTask.enable": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!css",
+    "!go",
+    "!handlebars",
+    "!html",
+    "!jade",
+    "!java",
+    "!javascript",
+    "!javascriptreact",
+    "!json",
+    "!jsonc",
+    "!latex",
+    "!less",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss",
+    "!typescript",
+    "!typescriptreact",
+    "!yaml",
+    "!yml",
+    "markdown"
+  ],
+  "cSpell.enabled": true
+}
