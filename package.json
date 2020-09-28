@@ -3,6 +3,7 @@
     "displayName": "MM React Extensions Pack",
     "description": "Conjunto de extensiones para proyectos en React",
     "version": "0.0.1",
+    "publisher": "AlvaroAlmendros",
     "repository": {
         "type": "git",
         "url": "https://github.com/arkdelkaos/mm-react-extensions-pack"

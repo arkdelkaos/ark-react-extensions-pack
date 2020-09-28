@@ -1,16 +1,9 @@
-# README
+# Masmovil React Extensions Pack
 
-## This is the README for your extension pack "mm-react-extensions-pack"
+This is a pack with the extensions I use and recommend to my coworkers, so we can activate/deactivate between workspaces easier.
+For example, when working with react and angular projects the process of whitelisting workspace only extensions is kind of tedious.
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+## Configuration
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This is the first iteration of this idea, and I don't want to expend too much time on it if it doesn't feel useful after a while.
+When needed I'll add some custom configurations for the extensions _(even vscode itself)_ here
