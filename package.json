@@ -2,7 +2,7 @@
     "name": "ark-react-extensions-pack",
     "displayName": "Ark's React Extensions Pack",
     "description": "Conjunto de extensiones para proyectos en React",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "AlvaroAlmendros",
     "repository": {
         "type": "git",
