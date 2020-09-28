@@ -1,4 +1,4 @@
-# Masmovil React Extensions Pack
+# Ark's React Extensions Pack
 
 This is a pack with the extensions I use and recommend to my coworkers, so we can activate/deactivate between workspaces easier.
 For example, when working with react and angular projects the process of whitelisting workspace only extensions is kind of tedious.

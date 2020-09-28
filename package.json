@@ -1,12 +1,12 @@
 {
-    "name": "mm-react-extensions-pack",
-    "displayName": "MM React Extensions Pack",
+    "name": "ark-react-extensions-pack",
+    "displayName": "Ark's React Extensions Pack",
     "description": "Conjunto de extensiones para proyectos en React",
     "version": "0.0.1",
     "publisher": "AlvaroAlmendros",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arkdelkaos/mm-react-extensions-pack"
+        "url": "https://github.com/arkdelkaos/ark-react-extensions-pack"
     },
     "icon": "icon.png",
     "engines": {
