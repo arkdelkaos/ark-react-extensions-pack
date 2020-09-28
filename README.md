@@ -1,7 +1,8 @@
 # Ark's React Extensions Pack
 
 - [Ark's React Extensions Pack](#arks-react-extensions-pack)
-  - [What extensions do I include?](#what-extensions-do-i-include)
+  - [Included Extensions](#included-extensions)
+    - [Do I need all those extensions?](#do-i-need-all-those-extensions)
     - [Core](#core)
     - [Linting and Syntax highlighting](#linting-and-syntax-highlighting)
     - [Markdown](#markdown)
@@ -12,19 +13,33 @@
 This is a pack with the extensions I use and recommend to my coworkers, so we can activate/deactivate between workspaces easier.
 For example, when working with react and angular projects the process of whitelisting workspace only extensions is kind of tedious.
 
-## What extensions do I include?
+## Included Extensions
+
+### Do I need all those extensions?
+
+Maybe. You can just disable any extension you don't want to use.
+But I recommend you to try them.
+- The ones with the icon 🔥 are my favorites!
+- Those with the icon 🔒 are a must!
+
+Having less extensions running at the same time will always return a better performance.
+But remember that not all extensions are running in the background!: those "on demand" (command palette) extensions weight almost nothing performance wise.
+- The extensions with the icon ⚙️ can be kind of heavy on performance
+
+I'll try to explain why I use every extension and how to configure it, **but feel free to add a new PR with any change proposal**.
+
 
 ### Core
+- 🔒 ESLint
 - 🔥 Live Share
 - 🔥 Project Manager
 - Docker
-- ESLint
 - GitLens
 - Jira and Bitbucket (Official)
-- Path Intellisense
-- TabNine
 - Typescript Hero
-- Visual Studio IntelliCode
+- ⚙️ Path Intellisense
+- ⚙️ TabNine
+- ⚙️ Visual Studio IntelliCode
 
 ### Linting and Syntax highlighting
 - 🔥 LintLens
@@ -51,22 +66,22 @@ For example, when working with react and angular projects the process of whiteli
 - Better Comments
 - File Utils
 - Glean
-- Javascript Booster
 - Jest-cucumber code generator
 - Smart Column Indenter
+- ⚙️ Javascript Booster
 
 ### UI
-- 🔥 Error Lens
+- 🔒 🔥 Error Lens
 - Bracket Pair Colorizer
 - Color-Info
 - colorize
 - empty-indent
 - Guides
-- Image Preview
 - Jenkinsfile Support
-- Log File Highlighter
-- Output Colorizer
 - SVG Viewer
+- ⚙️ Image Preview
+- ⚙️ Log File Highlighter
+- ⚙️ Output Colorizer
 
 ## Configuration
 
