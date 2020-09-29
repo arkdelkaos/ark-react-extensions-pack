@@ -31,8 +31,14 @@
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "on",
   "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#ac90d9",
+    "activityBar.foreground": "#ac90d9",
+    "panel.border": "#ac90d9",
+    "sideBar.border": "#ac90d9",
     "sideBarSectionHeader.foreground": "#ac90d9",
-    "tab.activeForeground": "#ac90d9"
+    "statusBar.border": "#ac90d9",
+    "statusBar.foreground": "#ac90d9",
+    "tab.activeForeground": "#ac90d9",
   },
   "git.ignoreLimitWarning": true,
   "eslint.lintTask.enable": true,

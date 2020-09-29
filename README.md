@@ -54,7 +54,7 @@ I'll try to explain why I use every extension and how to configure it, **but fee
 
 ### Live Share
 - 🔥 Live Share: To edit and debug code coperatively. A must for remote working.
-- Live Share Audio: 100% integrated into live share and free! Audio for your live share sessions.
+- 🆕 Live Share Audio: 100% integrated into live share and free! Audio for your live share sessions.
 
 ### Markdown
 - Markdown all-in-one
@@ -76,13 +76,13 @@ I'll try to explain why I use every extension and how to configure it, **but fee
 
 ### UI
 - 🔒 🔥 Error Lens
+- 🆕 Peacock
 - Bracket Pair Colorizer
 - Color-Info
 - colorize
 - empty-indent
 - Guides
 - Jenkinsfile Support
-- Peacock
 - SVG Viewer
 - ⚙️ Image Preview
 - ⚙️ Log File Highlighter
