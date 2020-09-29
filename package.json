@@ -59,6 +59,8 @@
         "visualstudioexptteam.vscodeintellicode",
         "wix.glean",
         "wmaurer.change-case",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "ms-vsliveshare.vsliveshare-audio",
+        "johnpapa.vscode-peacock"
     ]
 }

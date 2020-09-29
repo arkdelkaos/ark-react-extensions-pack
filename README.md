@@ -5,6 +5,7 @@
     - [Do I need all those extensions?](#do-i-need-all-those-extensions)
     - [Core](#core)
     - [Linting and Syntax highlighting](#linting-and-syntax-highlighting)
+    - [Live Share](#live-share)
     - [Markdown](#markdown)
     - [Tricks](#tricks)
     - [UI](#ui)
@@ -30,10 +31,9 @@ I'll try to explain why I use every extension and how to configure it, **but fee
 
 
 ### Core
-- 🔒 ESLint
-- 🔥 Live Share
-- 🔥 Project Manager
-- Docker
+- 🔒 ESLint: Integrates ESLint into VS Code. As we have prettier rules inside our eslintrc file, we will only need to use this linter.
+- 🔥 Project Manager: To switch between projects/workspaces easily, and take advantage of the automatic extension switch by workspace.
+- Docker: All the Docker related tools you may need, from management to syntax highlighting.
 - GitLens
 - Jira and Bitbucket (Official)
 - Typescript Hero
@@ -51,6 +51,10 @@ I'll try to explain why I use every extension and how to configure it, **but fee
 - SVG
 - XML Formater
 - YAML
+
+### Live Share
+- 🔥 Live Share: To edit and debug code coperatively. A must for remote working.
+- Live Share Audio: 100% integrated into live share and free! Audio for your live share sessions.
 
 ### Markdown
 - Markdown all-in-one
@@ -78,6 +82,7 @@ I'll try to explain why I use every extension and how to configure it, **but fee
 - empty-indent
 - Guides
 - Jenkinsfile Support
+- Peacock
 - SVG Viewer
 - ⚙️ Image Preview
 - ⚙️ Log File Highlighter
