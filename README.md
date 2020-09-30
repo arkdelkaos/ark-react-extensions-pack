@@ -8,7 +8,6 @@
     - [Core](#core)
     - [Linting and Syntax highlighting](#linting-and-syntax-highlighting)
     - [Live Share](#live-share)
-    - [Markdown](#markdown)
     - [Tricks](#tricks)
     - [UI](#ui)
   - [Configuration](#configuration)
@@ -40,72 +39,67 @@ The ones that are included but were already installed will work as the were, but
 
 - If you enable the pack for a workspace all its extensions (actual and future ones) will be enabled for that workspace
 - The same if you disable the pack.
-- If you set a unique status for a extension included in the pack, for example you disable the pack as a whole but enable a pair of extenions, the individual settings will prevail over the pack ones.
+- If you set a unique status for a extension included in the pack, for example you disable the pack as a whole but enable a pair of extensions, the individual settings will prevail over the pack ones.
 
 ## Included Extensions
 
 ### Core
 
-- 🔒 ESLint: Integrates ESLint into VS Code. As we have prettier rules inside our eslintrc file, we will only need to use this linter.
-- 🔥 Project Manager: To switch between projects/workspaces easily, and take advantage of the automatic extension switch by workspace.
-- Docker: All the Docker related tools you may need, from management to syntax highlighting.
-- GitLens: The git swissknife, with blame
-- Jira and Bitbucket (Official): To interact with Jira without having to switch to the app/web
-- ⚙️ Path Intellisense: For VSC to be able to autocompletes filenames
-- ⚙️ TabNine
-- ⚙️ Visual Studio IntelliCode
+- 🔒 **ESLint**: Integrates ESLint into VS Code. As we have prettier rules inside our eslintrc file, we will only need to use this linter.
+- 🔥 **Project Manager**: To switch between projects/workspaces easily, and take advantage of the automatic extension switch by workspace.
+- **Docker**: All the Docker related tools you may need, from management to syntax highlighting.
+- **GitLens**: The git swissknife, with blame
+- **Jira and Bitbucket (Official)**: To interact with Jira without having to switch to the app/web
+- ⚙️ **Path Intellisense**: For VSC to be able to autocompletes filenames
+- ⚙️ **TabNine**: AI assisted code completions, will predict the next “token” in the programming sequence based on patterns found in the previous code samples from the same user.
+- ⚙️ **Visual Studio IntelliCode**: AI assisted code completions, official by Microsoft.
 
 ### Linting and Syntax highlighting
 
-- 🔥 LintLens
-- Cucumber (Gherkin) Full Support
-- DotENV
-- JSON Tools
-- Rainbow CSV
-- Sippets and Syntax Highlight for Gherkin (Cucumber)
-- SVG
-- XML Formater
-- YAML
+- 🔥 **LintLens**: When editing `.eslintrc` rules, will tell what every rule do and if it's configured correctly.
+- 🔥 **Code Spell Checker**: Multi language spell checker.
+- **Cucumber (Gherkin) Full Support**
+- **DotENV**: DotENV syntax support
+- **JSON Tools**: JSON prettify and minify on demand.
+- **Markdown all-in-one**: Markdown swissknife, with preview, table of contents...
+- **Markdown Checkbox**: Adds checkbox/task support like at Github
+- **Markdownlint**: Linting and style checking for md files.
+- **Rainbow CSV**: Easier CSV edit by adding colors per column.
+- **Snippets and Syntax Highlight for Gherkin (Cucumber)**: Mainly highlight for feature files;
+- **SVG**: All SVG needs in one extension! SVG Coding, Minify, Pretty, Preview...
+- **YAML**: Autocomplete, syntax _(with Kubernetes syntax support)_ and validation
 
 ### Live Share
 
-- 🔥 Live Share: To edit and debug code coperatively. A must for remote working.
-- 🆕 Live Share Audio: 100% integrated into live share and free! Audio for your live share sessions.
-
-### Markdown
-
-- Markdown all-in-one
-- Markdown Checkbox
-- Markdown Table Prettify
-- Markdownlint
+- 🔥 **Live Share**: To edit and debug code coop. A must for remote working.
+- 🆕 **Live Share Audio**: 100% integrated into live share and free! Audio for your live share sessions.
 
 ### Tricks
 
-- 🔥 change-case
-- 🔥 Sort Lines
-- 🔥 Toggle Quotes
-- 🔥 Turbo Console Log
-- Better Comments
-- File Utils
-- Glean
-- Jest-cucumber code generator
-- Smart Column Indenter
-- ⚙️ Javascript Booster
+- 🔥 **change-case**:
+- 🔥 **Sort Lines**:
+- 🔥 **Toggle Quotes**:
+- 🔥 **Turbo Console Log**:
+- **Better Comments**:
+- **File Utils**:
+- **Glean**:
+- **Jest-cucumber code generator**:
+- **Smart Column Indenter**:
+- ⚙️ **Javascript Booster**:
 
 ### UI
 
-- 🔒 🔥 Error Lens
-- 🆕 Peacock
-- Bracket Pair Colorizer
-- Color-Info
-- colorize
-- empty-indent
-- Guides
-- Jenkinsfile Support
-- SVG Viewer
-- ⚙️ Image Preview
-- ⚙️ Log File Highlighter
-- ⚙️ Output Colorizer
+- 🔒 🔥 **Error Lens**:
+- 🆕 **Peacock**:
+- **Bracket Pair Colorizer**:
+- **Color-Info**:
+- **colorize**:
+- **empty-indent**:
+- **Guides**:
+- **Jenkinsfile Support**:
+- ⚙️ **Image Preview**:
+- ⚙️ **Log File Highlighter**:
+- ⚙️ **Output Colorizer**:
 
 ## Configuration
 
