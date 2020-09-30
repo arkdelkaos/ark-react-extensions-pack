@@ -49,10 +49,9 @@ The ones that are included but were already installed will work as the were, but
 - 🔒 ESLint: Integrates ESLint into VS Code. As we have prettier rules inside our eslintrc file, we will only need to use this linter.
 - 🔥 Project Manager: To switch between projects/workspaces easily, and take advantage of the automatic extension switch by workspace.
 - Docker: All the Docker related tools you may need, from management to syntax highlighting.
-- GitLens
-- Jira and Bitbucket (Official)
-- Typescript Hero
-- ⚙️ Path Intellisense
+- GitLens: The git swissknife, with blame
+- Jira and Bitbucket (Official): To interact with Jira without having to switch to the app/web
+- ⚙️ Path Intellisense: For VSC to be able to autocompletes filenames
 - ⚙️ TabNine
 - ⚙️ Visual Studio IntelliCode
 
