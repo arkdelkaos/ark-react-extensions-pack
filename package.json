@@ -15,6 +15,21 @@
     "categories": [
         "Extension Packs"
     ],
+    "keywords": [
+        "react",
+        "mm",
+        "linters",
+        "typescriptreact",
+        "typescript",
+        "formatter",
+        "markdown",
+        "ts",
+        "multi-root ready"
+    ],
+    "galleryBanner": {
+        "color": "#00a0b5",
+        "theme": "dark"
+      },
     "extensionPack": [
         "aaron-bond.better-comments",
         "alefragnani.project-manager",

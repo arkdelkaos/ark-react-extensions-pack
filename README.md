@@ -1,3 +1,7 @@
+![](icon.png)
+
+[marketplace.visualstudio/ark-react-extensions-pack](https://marketplace.visualstudio.com/items?itemName=AlvaroAlmendros.ark-react-extensions-pack)
+
 # Ark's React Extensions Pack
 
 - [Ark's React Extensions Pack](#arks-react-extensions-pack)
