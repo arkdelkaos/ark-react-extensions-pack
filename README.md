@@ -1,4 +1,4 @@
-![](icon.png)
+<img src="banner.png" alt="drawing" width="700"/>
 
 [marketplace.visualstudio/ark-react-extensions-pack](https://marketplace.visualstudio.com/items?itemName=AlvaroAlmendros.ark-react-extensions-pack)
 
