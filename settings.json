@@ -1,0 +1,169 @@
+{
+  //
+  // IMPORTANT
+  //
+  // Those folders/files we don't want to see at the file explorer
+  "files.exclude": {
+    "**/__snapshots__": true,
+    "**/CHANGELOG.md": true,
+    "**/node_modules": true
+  },
+  // the route to your project folders
+  // for example, $home is my user folder -> ~/Documents/MyProjects -> "$home\\Documents\\MyProjects"
+  "projectManager.git.baseFolders": [
+    "$home\\Documents\\MyProjects"
+  ],
+
+  //
+  // CORE
+  //
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "modifications", // Only lint your moddified lines on save! 🔥
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false, // seriously, who use the minimap? Pretty but not very useful
+  "editor.multiCursorModifier": "ctrlCmd", // cmd to add new cursors! 🔥
+  "git.autofetch": true, // automatic git fetch
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "html.autoClosingTags": false, // I hate to keep deleting the auto clossing tag every time
+  "html.format.wrapAttributes": "force-aligned", // html indent style
+  "javascript.preferences.quoteStyle": "single", // use ' at js instead of "
+  // Font Ligatures
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
+  // Linter / Language
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  //
+  // EXTRAS
+  //
+  // To colorize fixmes and todos
+  "better-comments.multilineComments": false,
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "tag": "!"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "tag": "?"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#474747",
+      "strikethrough": true,
+      "tag": "//"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "tag": "todo"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#8E44AD",
+      "strikethrough": false,
+      "tag": "fixme"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#98C379",
+      "strikethrough": false,
+      "tag": "*"
+    }
+  ],
+  // To colorize our dot notation based MUI Theme colors
+  "colorize.colorized_colors": [
+    "HEXA",
+    "RGB",
+    "HSL"
+  ],
+  "colorize.languages": [
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "typescript",
+    "typescriptreact"
+  ],
+  // The spell checker!
+  "cSpell.enabled": false,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!css",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!html",
+    "!jade",
+    "!java",
+    "!javascript",
+    "!javascriptreact",
+    "!json",
+    "!jsonc",
+    "!latex",
+    "!less",
+    "markdown", // only markdown by default
+    "!php",
+    "!pug",
+    "!python",
+    "!rust",
+    "!scala",
+    "!scss",
+    "!typescript",
+    "!typescriptreact",
+    "!yaml",
+    "!yml"
+  ],
+  "files.associations": {
+    ".env": "dotenv",
+    ".env.dev": "dotenv",
+    ".env.prod": "dotenv",
+    "env.example": "dotenv"
+  },
+  "git.ignoreLimitWarning": true,
+  "liveshare.presence": true,
+  "projectManager.sortList": "Recent",
+  "css.validate": false,
+  "scss.validate": false,
+  "turboConsoleLog.logMessagePrefix": "***",
+  "turboConsoleLog.quote": "'"
+}

@@ -15,6 +15,7 @@
     - [Tricks](#tricks)
     - [UI](#ui)
   - [Configuration](#configuration)
+  - [How to contribute](#how-to-contribute)
 
 This is a pack with the extensions I use and recommend to my coworkers, so we can activate/deactivate between workspaces easier.
 For example, when working with react and angular projects the process of whitelisting workspace only extensions is kind of tedious.
@@ -64,6 +65,7 @@ The ones that are included but were already installed will work as the were, but
 - 🔥 **Code Spell Checker**: Multi language spell checker.
 - **Cucumber (Gherkin) Full Support**
 - **DotENV**: DotENV syntax support
+- **Jenkinsfile Support**: Jenkinsfile syntax
 - **JSON Tools**: JSON prettify and minify on demand.
 - **Markdown all-in-one**: Markdown swissknife, with preview, table of contents...
 - **Markdown Checkbox**: Adds checkbox/task support like at Github
@@ -80,32 +82,90 @@ The ones that are included but were already installed will work as the were, but
 
 ### Tricks
 
-- 🔥 **change-case**:
-- 🔥 **Sort Lines**:
-- 🔥 **Toggle Quotes**:
-- 🔥 **Turbo Console Log**:
-- **Better Comments**:
-- **File Utils**:
-- **Glean**:
-- **Jest-cucumber code generator**:
-- **Smart Column Indenter**:
-- ⚙️ **Javascript Booster**:
+- 🔥 **change-case**: A lot of tools to switch case style (camel, kebab, upper...)
+- 🔥 **Sort Lines**: Select a few lines and this tool will sort it alphabetically
+- 🔥 **Toggle Quotes**: Select a string and with `cmd+'` you can switch between ``, "", and ''
+- 🔥 **Turbo Console Log**: Select a variable, then it will add a console log automatically. It can even delete all logs at once!
+- **Better Comments**: To colorize todo/fixme
+- **File Utils**: To remove, rename, etc a file from command palette
+- **Glean**: Refactoring tools, like extract to a new file (so useful!)
+- **Jest-cucumber code generator**: Automatic jest-cucumber test generator layout from a `.feature` file
+- **Smart Column Indenter**: To indent by columns
+- ⚙️ **Javascript Booster**: refactoring tools like convert from/to function to arrow function, and a lot more
 
 ### UI
 
-- 🔒 🔥 **Error Lens**:
-- 🆕 **Peacock**:
-- **Bracket Pair Colorizer**:
-- **Color-Info**:
-- **colorize**:
-- **empty-indent**:
-- **Guides**:
-- **Jenkinsfile Support**:
-- ⚙️ **Image Preview**:
-- ⚙️ **Log File Highlighter**:
-- ⚙️ **Output Colorizer**:
+- 🔒 🔥 **Error Lens**: One of my MUST HAVE! Just display linting/ts errors in a very obvious way! Impossible to miss!
+- 🆕 **Peacock**: To colorize the vscode theme with a different color per technology/workspace
+- **Bracket Pair Colorizer**: Every bracket pair will have the same color!
+- **Color-Info**: Add color info when editing colors
+- **colorize**: Add colors to MUY Theme colors declaration
+- **empty-indent**: Removes empty indent on save
+- **Guides**: Better guidelines
+- ⚙️ **Image Preview**: Add a preview of the svg/img you are importing if the route is correct
+- ⚙️ **Output Colorizer**: Colorize vscode logs
 
 ## Configuration
 
-This is the first iteration of this idea, and I don't want to expend too much time adding complexity if the initiative doesn't feel useful after a while.
-When needed I'll add some custom configurations for the extensions _(even vscode itself)_ here
+First of all you should install a good all-in-one font, and use it.
+I'll recommend you the two I use, from the [NerdFonts](https://github.com/ryanoasis/nerd-fonts) project: JetBrainsMono Nerd Font & DroidSansMono Nerd Font
+This fonts supports font ligatures and have been patched with all kind of icons to be used with advanced ZSH themes like [powerlevel10k](https://github.com/romkatv/powerlevel10k) _(this princess will be talk about in another castle)_
+
+- Do you have brew? If not, lets start by installing it!
+
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  ```
+
+- Then...
+
+  ```bash
+  brew tap homebrew/cask-fonts
+  brew cask install font-jetbrainsmono-nerd-font
+  brew cask install font-droidsansmono-nerd-font-mono
+  ```
+
+Now that we have brew installed for sure, let me talk you about how to install node correctly, just to be sure.
+I hate the official installer and its documentation, and tend to avoid it at all costs.
+What I do like is [n](https://github.com/tj/n), a Node.js version manager, installed with brew.
+It will install the node versions you want to use at `/usr/local`, avoiding all kind of shenanigans.
+
+- If you have alread installed node...in your place I probably uninstall it. **If you don't want to just skip this step**.
+- Install n and the lts version of node
+
+  ```bash
+  brew install n
+  n lts
+  ```
+
+> _Can anybody find me somebody to love?..._
+> **I use brew to install _almost_ everything**. Brew is love! 😍
+
+Now, lets create a custom workspace settings file!
+Let's do it the easy way:
+
+- Open VSCode at your react project :)
+- Open the command palette: cmd+shift+p
+- Type `workspace json`, and you will be able to open the current workspace
+
+Now open the [settings.json](/settings.json) included, and copy it at your workspace settings!
+As you can see I have added comments explaining what does every setting :)
+
+When you have this options fulfilled, we can configure how to quick change between workspaces.
+
+- First lest go to the extensions list and disable this addon
+- Then enable it **only for the workspace**
+
+Now go to the projects manager and select another project!
+In that project you will see that the react extensions included in this pack are disabled!
+If you open the react project again you will se that the react extensions and settings are automatically switched on again! _isn't that cool?_ 😉
+
+> Do you want to be able to easy know what workspace are you editting? Take a look at the peacock extension, or just try at de command palette `Peacock: Change to a favorite color` 🌈
+
+## How to contribute
+
+Do you have a extension you really like?
+
+Just wants to provide some configuration or having any doubt?
+
+Just **add a issue**! 😉 👍🏻
