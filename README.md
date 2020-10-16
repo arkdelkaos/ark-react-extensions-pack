@@ -108,7 +108,9 @@ The ones that are included but were already installed will work as the were, but
 ## Configuration
 
 First of all you should install a good all-in-one font, and use it.
-I'll recommend you the two I use, from the [NerdFonts](https://github.com/ryanoasis/nerd-fonts) project: JetBrainsMono Nerd Font & DroidSansMono Nerd Font
+
+I'll recommend you the two I use, from the [NerdFonts](https://github.com/ryanoasis/nerd-fonts) project: JetBrainsMono Nerd Font & DroidSansMono Nerd Font.
+
 This fonts supports font ligatures and have been patched with all kind of icons to be used with advanced ZSH themes like [powerlevel10k](https://github.com/romkatv/powerlevel10k) _(this princess will be talk about in another castle)_
 
 - Do you have brew? If not, lets start by installing it!
@@ -126,9 +128,8 @@ This fonts supports font ligatures and have been patched with all kind of icons 
   ```
 
 Now that we have brew installed for sure, let me talk you about how to install node correctly, just to be sure.
-I hate the official installer and its documentation, and tend to avoid it at all costs.
-What I do like is [n](https://github.com/tj/n), a Node.js version manager, installed with brew.
-It will install the node versions you want to use at `/usr/local`, avoiding all kind of shenanigans.
+
+I hate the official installer and its documentation, and tend to avoid it at all costs. What I do like is [n](https://github.com/tj/n), a Node.js version manager, installed with brew. It will install the node versions you want to use at `/usr/local`, avoiding all kind of shenanigans.
 
 - If you have alread installed node...in your place I probably uninstall it. **If you don't want to just skip this step**.
 - Install n and the lts version of node
@@ -160,7 +161,7 @@ Now go to the projects manager and select another project!
 In that project you will see that the react extensions included in this pack are disabled!
 If you open the react project again you will se that the react extensions and settings are automatically switched on again! _isn't that cool?_ 😉
 
-> Do you want to be able to easy know what workspace are you editting? Take a look at the peacock extension, or just try at de command palette `Peacock: Change to a favorite color` 🌈
+> Do you want to be able to easily know what workspace are you editing? Take a look at the peacock extension, or just try at de command palette `Peacock: Change to a favorite color` 🌈
 
 ## How to contribute
 
@@ -168,4 +169,4 @@ Do you have a extension you really like?
 
 Just wants to provide some configuration or having any doubt?
 
-Just **add a issue**! 😉 👍🏻
+**Add a issue**! 😉 👍🏻
