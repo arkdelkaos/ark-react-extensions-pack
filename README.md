@@ -86,6 +86,7 @@ The ones that are included but were already installed will work as the were, but
 - 🔥 **Sort Lines**: Select a few lines and this tool will sort it alphabetically
 - 🔥 **Toggle Quotes**: Select a string and with `cmd+'` you can switch between ``, "", and ''
 - 🔥 **Turbo Console Log**: Select a variable, then it will add a console log automatically. It can even delete all logs at once!
+- 🆕 **Template String Converter**: Automatically convert to `` when adding `${` inside a string
 - **Better Comments**: To colorize todo/fixme
 - **File Utils**: To remove, rename, etc a file from command palette
 - **Glean**: Refactoring tools, like extract to a new file (so useful!)
