@@ -83,11 +83,14 @@ The ones that are included but were already installed will work as the were, but
 ### Tricks
 
 - 🔥 **change-case**: A lot of tools to switch case style (camel, kebab, upper...)
+- 🔥 🆕 **Open Matching Files**: Open all files that match any given string or glob
 - 🔥 **Sort Lines**: Select a few lines and this tool will sort it alphabetically
 - 🔥 **Toggle Quotes**: Select a string and with `cmd+'` you can switch between ``, "", and ''
 - 🔥 **Turbo Console Log**: Select a variable, then it will add a console log automatically. It can even delete all logs at once!
+- 🆕 **Diff**: Open a diff with any given file against the current file
+- 🆕 **Search - Open all results**: Open all files found
+- 🆕 **Sort Package.json**: Automatically sort package.json
 - 🆕 **Template String Converter**: Automatically convert to `` when adding `${` inside a string
-- **Better Comments**: To colorize todo/fixme
 - **File Utils**: To remove, rename, etc a file from command palette
 - **Glean**: Refactoring tools, like extract to a new file (so useful!)
 - **Jest-cucumber code generator**: Automatic jest-cucumber test generator layout from a `.feature` file

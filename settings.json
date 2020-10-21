@@ -164,6 +164,7 @@
   "projectManager.sortList": "Recent",
   "css.validate": false,
   "scss.validate": false,
+  "template-string-converter.enabled": true,
   "turboConsoleLog.logMessagePrefix": "***",
   "turboConsoleLog.quote": "'"
 }
