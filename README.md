@@ -56,8 +56,8 @@ The ones that are included but were already installed will work as the were, but
 - **GitLens**: The git swissknife, with blame
 - **Jira and Bitbucket (Official)**: To interact with Jira without having to switch to the app/web
 - ⚙️ **Path Intellisense**: For VSC to be able to autocompletes filenames
-- ⚙️ **TabNine**: AI assisted code completions, will predict the next “token” in the programming sequence based on patterns found in the previous code samples from the same user.
 - ⚙️ **Visual Studio IntelliCode**: AI assisted code completions, official by Microsoft.
+- ❌ **TabNine**: ~~AI assisted code completions, will predict the next “token” in the programming sequence based on patterns found in the previous code samples from the same user.~~ This extensions opens a lot of comunication processes, even when disabled. It's kind of creepy, so I've stop recommending it until I verify this behaviour.
 
 ### Linting and Syntax highlighting
 
@@ -91,6 +91,8 @@ The ones that are included but were already installed will work as the were, but
 - 🆕 **Search - Open all results**: Open all files found
 - 🆕 **Sort Package.json**: Automatically sort package.json
 - 🆕 **Template String Converter**: Automatically convert to `` when adding `${` inside a string
+- 🆕 **Typescript Explicit Types**: Automatically generates explicit types
+- 🆕 **VSCode Sort json**: Sort json items
 - **File Utils**: To remove, rename, etc a file from command palette
 - **Glean**: Refactoring tools, like extract to a new file (so useful!)
 - **Jest-cucumber code generator**: Automatic jest-cucumber test generator layout from a `.feature` file
@@ -100,6 +102,7 @@ The ones that are included but were already installed will work as the were, but
 ### UI
 
 - 🔒 🔥 **Error Lens**: One of my MUST HAVE! Just display linting/ts errors in a very obvious way! Impossible to miss!
+- 🆕 **Open Matching Files**: Input a glob, and open all matching files in 
 - 🆕 **Peacock**: To colorize the vscode theme with a different color per technology/workspace
 - **Bracket Pair Colorizer**: Every bracket pair will have the same color!
 - **Color-Info**: Add color info when editing colors
