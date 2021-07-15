@@ -2,6 +2,8 @@
 
 [marketplace.visualstudio/ark-react-extensions-pack](https://marketplace.visualstudio.com/items?itemName=AlvaroAlmendros.ark-react-extensions-pack)
 
+> All common extension between the different packs has been moved to [Ark's Common Extensions Pack](https://github.com/arkdelkaos/ark-common-extensions-pack)
+
 # Ark's React Extensions Pack
 
 - [Ark's React Extensions Pack](#arks-react-extensions-pack)
@@ -11,9 +13,7 @@
   - [Included Extensions](#included-extensions)
     - [Core](#core)
     - [Linting and Syntax highlighting](#linting-and-syntax-highlighting)
-    - [Live Share](#live-share)
     - [Tricks](#tricks)
-    - [UI](#ui)
   - [Configuration](#configuration)
   - [How to contribute](#how-to-contribute)
 
@@ -51,66 +51,21 @@ The ones that are included but were already installed will work as the were, but
 ### Core
 
 - 🔒 **ESLint**: Integrates ESLint into VS Code. As we have prettier rules inside our eslintrc file, we will only need to use this linter.
-- 🔥 **Project Manager**: To switch between projects/workspaces easily, and take advantage of the automatic extension switch by workspace.
-- **Docker**: All the Docker related tools you may need, from management to syntax highlighting.
-- **GitLens**: The git swissknife, with blame
-- **Jira and Bitbucket (Official)**: To interact with Jira without having to switch to the app/web
-- ⚙️ **Path Intellisense**: For VSC to be able to autocompletes filenames
-- ⚙️ **Visual Studio IntelliCode**: AI assisted code completions, official by Microsoft.
-- ❌ **TabNine**: ~~AI assisted code completions, will predict the next “token” in the programming sequence based on patterns found in the previous code samples from the same user.~~ This extensions opens a lot of comunication processes, even when disabled. It's kind of creepy, so I've stop recommending it until I verify this behaviour.
 
 ### Linting and Syntax highlighting
 
 - 🔥 **LintLens**: When editing `.eslintrc` rules, will tell what every rule do and if it's configured correctly.
-- 🔥 **Code Spell Checker**: Multi language spell checker.
 - **Cucumber (Gherkin) Full Support**
-- **DotENV**: DotENV syntax support
-- **Jenkinsfile Support**: Jenkinsfile syntax
-- **JSON Tools**: JSON prettify and minify on demand.
-- **Markdown all-in-one**: Markdown swissknife, with preview, table of contents...
-- **Markdown Checkbox**: Adds checkbox/task support like at Github
-- **Markdownlint**: Linting and style checking for md files.
-- **Rainbow CSV**: Easier CSV edit by adding colors per column.
-- **Snippets and Syntax Highlight for Gherkin (Cucumber)**: Mainly highlight for feature files;
-- **SVG**: All SVG needs in one extension! SVG Coding, Minify, Pretty, Preview...
-- **YAML**: Autocomplete, syntax _(with Kubernetes syntax support)_ and validation
-
-### Live Share
-
-- 🔥 **Live Share**: To edit and debug code coop. A must for remote working.
-- 🆕 **Live Share Audio**: 100% integrated into live share and free! Audio for your live share sessions.
+- **Snippets and Syntax Highlight for Gherkin (Cucumber)**: Mainly highlight for feature files
+- **Browserlist**: Highlighting for Browserlist files
 
 ### Tricks
 
-- 🔥 **change-case**: A lot of tools to switch case style (camel, kebab, upper...)
-- 🔥 🆕 **Open Matching Files**: Open all files that match any given string or glob
-- 🔥 **Sort Lines**: Select a few lines and this tool will sort it alphabetically
-- 🔥 **Toggle Quotes**: Select a string and with `cmd+'` you can switch between ``, "", and ''
-- 🔥 **Turbo Console Log**: Select a variable, then it will add a console log automatically. It can even delete all logs at once!
-- 🆕 **Diff**: Open a diff with any given file against the current file
-- 🆕 **Search - Open all results**: Open all files found
 - 🆕 **Sort Package.json**: Automatically sort package.json
-- 🆕 **Template String Converter**: Automatically convert to `` when adding `${` inside a string
 - 🆕 **Typescript Explicit Types**: Automatically generates explicit types
-- 🆕 **VSCode Sort json**: Sort json items
-- **File Utils**: To remove, rename, etc a file from command palette
 - **Glean**: Refactoring tools, like extract to a new file (so useful!)
 - **Jest-cucumber code generator**: Automatic jest-cucumber test generator layout from a `.feature` file
-- **Smart Column Indenter**: To indent by columns
 - ⚙️ **Javascript Booster**: refactoring tools like convert from/to function to arrow function, and a lot more
-
-### UI
-
-- 🔒 🔥 **Error Lens**: One of my MUST HAVE! Just display linting/ts errors in a very obvious way! Impossible to miss!
-- 🆕 **Open Matching Files**: Input a glob, and open all matching files in 
-- 🆕 **Peacock**: To colorize the vscode theme with a different color per technology/workspace
-- **Bracket Pair Colorizer**: Every bracket pair will have the same color!
-- **Color-Info**: Add color info when editing colors
-- **colorize**: Add colors to MUY Theme colors declaration
-- **empty-indent**: Removes empty indent on save
-- **Guides**: Better guidelines
-- ⚙️ **Image Preview**: Add a preview of the svg/img you are importing if the route is correct
-- ⚙️ **Output Colorizer**: Colorize vscode logs
 
 ## Configuration
 
